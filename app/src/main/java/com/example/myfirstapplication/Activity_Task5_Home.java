@@ -6,21 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Activity_Task5_Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_task5_home);
     }
 
-    public void task4OnClick(View view) {
-        Intent intent = new Intent(this, Activity_Task4_Home.class);
+    public void simpleListOnClick(View view) {
+        Intent intent = new Intent(this, Activity_Simple_List.class);
         startActivity(intent);
     }
 
-    public void task5OnClick(View view) {
-        Intent intent = new Intent(this, Activity_Task5_Home.class);
+    public void spinnerListOnClick(View view) {
+        Intent intent = new Intent(this, Activity_Spinner_List.class);
         startActivity(intent);
     }
 }

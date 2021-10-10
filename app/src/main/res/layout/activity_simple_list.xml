@@ -1,0 +1,31 @@
+<?xml
+    version="1.0"
+    encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/selection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000cc"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+<!--Here is the list. Since we are using a ListActivity, we have to call it "@android:id/list" so ListActivitywill find it -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emptyset"
+    />
+</LinearLayout>

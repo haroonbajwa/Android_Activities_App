@@ -5,10 +5,22 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="HB Android App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".Activity_Spinner_List"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_Simple_List"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_Task5_Home"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_Task4_Home"
+            android:exported="true" />
         <activity
             android:name=".Activity5"
             android:exported="true" />
