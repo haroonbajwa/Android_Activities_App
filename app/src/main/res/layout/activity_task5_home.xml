@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".Activity_Task5_Home">
 
     <Button
@@ -38,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_simpleList" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_gridView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
@@ -46,8 +47,39 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="158dp"
         android:layout_marginRight="158dp"
-        android:text="Button"
+        android:onClick="gridViewOnClick"
+        android:text="GridView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_spinner" />
+
+    <Button
+        android:id="@+id/btn_autoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:onClick="autoCompleteOnClick"
+        android:text="Auto Complete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gridView" />
+
+    <Button
+        android:id="@+id/btn_imageGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:onClick="imageGalleryOnClick"
+        android:text="Image Gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_autoComplete" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,32 +10,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
+            android:name=".Activity_AutoComplete"
+            android:exported="true"
+            android:label="Task 5: AutoComplete TextView"
+            android:parentActivityName=".Activity_Task5_Home" />
+        <activity
+            android:name=".Activity_GridView"
+            android:exported="true"
+            android:label="Task 5: GridView"
+            android:parentActivityName=".Activity_Task5_Home" />
+        <activity
             android:name=".Activity_Spinner_List"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 5: Spinner List"
+            android:parentActivityName=".Activity_Task5_Home" />
         <activity
             android:name=".Activity_Simple_List"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 5 : Simple List"
+            android:parentActivityName=".Activity_Task5_Home" />
         <activity
             android:name=".Activity_Task5_Home"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 5"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Activity_Task4_Home"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 4"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Activity5"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 4 : Activity 5"
+            android:parentActivityName=".Activity_Task4_Home" />
         <activity
             android:name=".Activity4"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 4 : Activity 4"
+            android:parentActivityName=".Activity_Task4_Home" />
         <activity
             android:name=".Activity3"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 4 : Activity 3"
+            android:parentActivityName=".Activity_Task4_Home" />
         <activity
             android:name=".Activity2"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 4 : Activity 2"
+            android:parentActivityName=".Activity_Task4_Home" />
         <activity
             android:name=".Activity1"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Task 4 : Activity 1"
+            android:parentActivityName=".Activity_Task4_Home" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

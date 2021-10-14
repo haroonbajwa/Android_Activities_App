@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:id="@+id/myLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/background"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     >
     <TextView
         android:id="@+id/selection"
@@ -14,12 +13,10 @@
         android:background="#ff0033cc"
         android:textSize="14pt"
         android:textStyle="bold"
-        >
-    </TextView>
-
-    <Spinner
-        android:id="@+id/spinner"
+        />
+    <AutoCompleteTextView
+        android:id="@+id/edit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"></Spinner>
+        android:completionThreshold="3"/>
 </LinearLayout>

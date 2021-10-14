@@ -23,4 +23,17 @@ public class Activity_Task5_Home extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_Spinner_List.class);
         startActivity(intent);
     }
+
+    public void gridViewOnClick(View view) {
+        Intent intent = new Intent(this, Activity_GridView.class);
+        startActivity(intent);
+    }
+
+    public void autoCompleteOnClick(View view) {
+        Intent intent = new Intent(this, Activity_AutoComplete.class);
+        startActivity(intent);
+    }
+
+    public void imageGalleryOnClick(View view) {
+    }
 }

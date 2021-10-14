@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_1.xml" value="0.171875" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_2.xml" value="0.171875" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_3.xml" value="0.171875" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_4.xml" value="0.171875" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_5.xml" value="0.171875" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_auto_complete.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_grid_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_image_gallery.xml" value="0.27291666666666664" />
         <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
         <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_simple_list.xml" value="0.27291666666666664" />
         <entry key="..\:/AndroidProjects/Android Activities App/app/src/main/res/layout/activity_spinner_list.xml" value="0.27291666666666664" />
