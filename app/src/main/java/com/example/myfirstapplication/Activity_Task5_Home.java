@@ -35,5 +35,7 @@ public class Activity_Task5_Home extends AppCompatActivity {
     }
 
     public void imageGalleryOnClick(View view) {
+        Intent intent = new Intent(this, Activity_Image_Gallery.class);
+        startActivity(intent);
     }
 }

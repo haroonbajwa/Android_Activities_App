@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_Task5_Home.class);
         startActivity(intent);
     }
+
+    public void task6OnClick(View view) {
+        Intent intent = new Intent(this, Activity_Toast_View.class);
+        startActivity(intent);
+    }
 }

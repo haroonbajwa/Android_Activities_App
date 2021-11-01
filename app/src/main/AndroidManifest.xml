@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
+            android:name=".Activity_Toast_View"
+            android:exported="true"
+            android:label="Task 6"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".Activity_Image_Gallery"
+            android:exported="true"
+            android:label="Task 5: Image Gallery"
+            android:parentActivityName=".Activity_Task5_Home" />
+        <activity
             android:name=".Activity_AutoComplete"
             android:exported="true"
             android:label="Task 5: AutoComplete TextView"

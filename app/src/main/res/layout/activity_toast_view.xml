@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1,2"
+    android:background="@drawable/background"
+    >
+
+    <TableRow
+        android:id="@+id/myRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/myCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#4D009999"
+            android:gravity="center"
+            android:text="Testing Toast - Gravity.CENTER 320x480 pixels"
+            android:textColor="#CCBDBD"
+            android:textSize="20sp"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/myRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CA6E1F"
+        android:orientation="horizontal"
+        android:padding="10px">
+
+        <TextView
+            android:id="@+id/xLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" X offset: "
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/xBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:text="0"
+            android:textSize="18sp"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/myRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CA6E1F"
+        android:orientation="horizontal"
+        android:padding="10px">
+
+        <TextView
+            android:id="@+id/yLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Y offset: "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/yBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:text="0"
+            android:textSize="18sp"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/myRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4D009999"
+        android:orientation="horizontal"
+        android:padding="10px">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text=" Show Toast "></Button>
+    </TableRow>
+</TableLayout>
