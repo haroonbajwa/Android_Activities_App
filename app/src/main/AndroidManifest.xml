@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myfirstapplication">
+    package="com.example.myfirstapplication" >
 
     <application
         android:allowBackup="true"
@@ -8,13 +8,17 @@
         android:label="HB Android App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyFirstApplication">
+        android:theme="@style/Theme.MyFirstApplication" >
+        <activity
+            android:name=".Activity_Signup"
+            android:exported="true"
+            android:label="Signup"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Activity_Toast_View"
             android:exported="true"
             android:label="Task 6"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Activity_Image_Gallery"
             android:exported="true"
@@ -77,7 +81,7 @@
             android:parentActivityName=".Activity_Task4_Home" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

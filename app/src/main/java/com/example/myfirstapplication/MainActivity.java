@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_Toast_View.class);
         startActivity(intent);
     }
+
+    public void signupOnClick(View view) {
+        Intent intent = new Intent(this, Activity_Signup.class);
+        startActivity(intent);
+    }
 }
