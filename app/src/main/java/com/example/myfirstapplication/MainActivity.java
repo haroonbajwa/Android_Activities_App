@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_Signup.class);
         startActivity(intent);
     }
+
+    public void registrationOnClick(View view) {
+        Intent intent = new Intent(this, Activity_Registration.class);
+        startActivity(intent);
+    }
 }
