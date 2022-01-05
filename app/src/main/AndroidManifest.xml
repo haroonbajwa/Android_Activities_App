@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
+            android:name=".Activity_Sqlite"
+            android:exported="true"
+            android:label="Sqlite"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".Activity_Registration"
             android:exported="true"
             android:label="Registration"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Activity_Signup"
             android:exported="true"

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    tools:context=".Activity_Sqlite">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Students Records"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/studentRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:hint="Roll No"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/studentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentRollNo"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/studentDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentName"
+        android:hint="Department"
+        android:inputType="text"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/studentContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentDept"
+        android:hint="Contact"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/studentAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentContact"
+        android:hint="Address"
+        android:inputType="text"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/btnHolder1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentAddress"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_saveStud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Save"
+            app:backgroundTint="#009106"
+            app:icon="@drawable/ic_save" />
+
+        <Button
+            android:id="@+id/btn_updateStud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Update"
+            app:backgroundTint="#A52800"
+            app:icon="@drawable/ic_update" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnHolder2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHolder1"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/btn_deleteStud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Delete"
+            app:backgroundTint="#AA0000"
+            app:icon="@drawable/ic_delete" />
+
+        <Button
+            android:id="@+id/btn_viewStud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="View"
+            app:backgroundTint="#00AA9B"
+            app:icon="@drawable/ic_view" />
+    </LinearLayout>
+
+</RelativeLayout>

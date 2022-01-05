@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_Registration.class);
         startActivity(intent);
     }
+
+    public void sqliteOnClick(View view) {
+        Intent intent = new Intent(this, Activity_Sqlite.class);
+        startActivity(intent);
+    }
 }
